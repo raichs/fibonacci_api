@@ -11,7 +11,7 @@ Ruby on Rails was chosen for its simplicity and ease of use to quickly create an
 To use the API, simply make a GET request to the `/fibonacci` endpoint with the `n` parameter, as shown below:
 
 ```
-GET /fibonacci?n=3
+GET /fibonacci?n=6
 ```
 
 This request will provide you with the Fibonacci value corresponding to index `3`.
@@ -25,7 +25,7 @@ This request will provide you with the Fibonacci value corresponding to index `3
 - Response:
 
   ```integer
-  3
+  8
   ```
 
 ## Prerequisites
@@ -76,6 +76,7 @@ The tests for this API have been conducted using RSpec. You can execute the test
 
 ```
 rspec --format documentation
+```
 
 ## Possible Optimizations
 
